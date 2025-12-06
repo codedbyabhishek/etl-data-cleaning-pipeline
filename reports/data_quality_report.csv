@@ -1,0 +1,6 @@
+check,value
+raw_rows,35200
+rows_after_dedup,35000
+duplicates_removed,200
+missing_amount_imputed,0
+invalid_status_fixed,728
