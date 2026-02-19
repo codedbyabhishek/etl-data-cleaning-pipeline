@@ -1,30 +1,24 @@
-# ETL & Data Cleaning Pipeline
+# ETL & Data Cleaning Pipeline (High-End)
 
-ETL and data quality pipeline project (Dec 2025 - Feb 2026).
+Production-style ETL and data quality project (Dec 2025 - Feb 2026).
 
-## Highlights
-- Designed ETL flow for CSV + database-style records.
-- Implemented cleaning rules for missing values, schema normalization, and duplicate handling.
-- Enforced data integrity checks before reporting.
-- Automated routine KPI reporting to reduce manual effort.
+## What Makes This High-End
+- Multi-source extraction from CSV raw files plus simulated DB sync extract.
+- Large-scale processing with **120K+ order base records** and customer master enrichment.
+- Strict transformation logic for missing data, invalid values, duplicates, and schema consistency.
+- Data quality framework with completeness, uniqueness, and validity scoring.
+- Automated reporting suite for status, customer tier, and monthly performance.
 
-## Quickstart
+## Run
 ```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
 python scripts/generate_raw.py
 python src/etl_pipeline.py
 python src/reporting.py
 ```
 
-## Pipeline Stages
-- Extract: load raw customer/order files
-- Transform: standardize types, impute missing, remove invalid records
-- Load: write curated datasets and quality report
-
-## Outputs
-- `data/staging/staged_orders.csv`
-- `data/curated/curated_orders.csv`
-- `reports/data_quality_report.csv`
-- `reports/automated_kpi_report.csv`
+## Key Outputs
+- `/Users/abhishekkumar/Documents/Projects/etl-data-cleaning-pipeline/data/staging/staged_orders.csv`
+- `/Users/abhishekkumar/Documents/Projects/etl-data-cleaning-pipeline/data/curated/curated_orders.csv`
+- `/Users/abhishekkumar/Documents/Projects/etl-data-cleaning-pipeline/reports/data_quality_report.csv`
+- `/Users/abhishekkumar/Documents/Projects/etl-data-cleaning-pipeline/reports/automated_kpi_report.csv`
+- `/Users/abhishekkumar/Documents/Projects/etl-data-cleaning-pipeline/reports/automated_kpi_report_monthly.csv`

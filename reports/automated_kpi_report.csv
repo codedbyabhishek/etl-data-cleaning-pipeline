@@ -1,4 +1,6 @@
-status,total_orders,total_amount,avg_amount
-completed,24456,2642209.78,108.03932695453058
-pending,7100,761946.56,107.31641690140846
-cancelled,3444,376168.14,109.22419860627178
+metric,value
+total_orders,120000.0
+total_amount,17443252.490000002
+avg_order_amount,145.36043741666668
+distinct_customers,44707.0
+completed_rate,0.7210333333333333

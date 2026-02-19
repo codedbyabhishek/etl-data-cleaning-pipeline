@@ -1,6 +1,34 @@
-check,value
-raw_rows,35200
-rows_after_dedup,35000
-duplicates_removed,200
-missing_amount_imputed,0
-invalid_status_fixed,728
+check,value,stage,status,record_count,notes
+raw_rows_csv,120450.0,extract,success,170450,Loaded CSV + DB extract
+raw_rows_csv,120450.0,transform,success,120000,Cleaned missing/invalid values and enriched with customer master
+raw_rows_csv,120450.0,load,success,120000,Published staged + curated datasets and data-quality reports
+rows_after_union,120000.0,extract,success,170450,Loaded CSV + DB extract
+rows_after_union,120000.0,transform,success,120000,Cleaned missing/invalid values and enriched with customer master
+rows_after_union,120000.0,load,success,120000,Published staged + curated datasets and data-quality reports
+duplicates_removed,50450.0,extract,success,170450,Loaded CSV + DB extract
+duplicates_removed,50450.0,transform,success,120000,Cleaned missing/invalid values and enriched with customer master
+duplicates_removed,50450.0,load,success,120000,Published staged + curated datasets and data-quality reports
+missing_amount_imputed,2600.0,extract,success,170450,Loaded CSV + DB extract
+missing_amount_imputed,2600.0,transform,success,120000,Cleaned missing/invalid values and enriched with customer master
+missing_amount_imputed,2600.0,load,success,120000,Published staged + curated datasets and data-quality reports
+invalid_status_fixed,2383.0,extract,success,170450,Loaded CSV + DB extract
+invalid_status_fixed,2383.0,transform,success,120000,Cleaned missing/invalid values and enriched with customer master
+invalid_status_fixed,2383.0,load,success,120000,Published staged + curated datasets and data-quality reports
+invalid_payment_fixed,0.0,extract,success,170450,Loaded CSV + DB extract
+invalid_payment_fixed,0.0,transform,success,120000,Cleaned missing/invalid values and enriched with customer master
+invalid_payment_fixed,0.0,load,success,120000,Published staged + curated datasets and data-quality reports
+missing_date_fixed,500.0,extract,success,170450,Loaded CSV + DB extract
+missing_date_fixed,500.0,transform,success,120000,Cleaned missing/invalid values and enriched with customer master
+missing_date_fixed,500.0,load,success,120000,Published staged + curated datasets and data-quality reports
+final_rows,120000.0,extract,success,170450,Loaded CSV + DB extract
+final_rows,120000.0,transform,success,120000,Cleaned missing/invalid values and enriched with customer master
+final_rows,120000.0,load,success,120000,Published staged + curated datasets and data-quality reports
+completeness_score,100.0,extract,success,170450,Loaded CSV + DB extract
+completeness_score,100.0,transform,success,120000,Cleaned missing/invalid values and enriched with customer master
+completeness_score,100.0,load,success,120000,Published staged + curated datasets and data-quality reports
+uniqueness_score,100.0,extract,success,170450,Loaded CSV + DB extract
+uniqueness_score,100.0,transform,success,120000,Cleaned missing/invalid values and enriched with customer master
+uniqueness_score,100.0,load,success,120000,Published staged + curated datasets and data-quality reports
+validity_score,100.0,extract,success,170450,Loaded CSV + DB extract
+validity_score,100.0,transform,success,120000,Cleaned missing/invalid values and enriched with customer master
+validity_score,100.0,load,success,120000,Published staged + curated datasets and data-quality reports
