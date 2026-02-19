@@ -22,3 +22,9 @@ python src/reporting.py
 - `/Users/abhishekkumar/Documents/Projects/etl-data-cleaning-pipeline/reports/data_quality_report.csv`
 - `/Users/abhishekkumar/Documents/Projects/etl-data-cleaning-pipeline/reports/automated_kpi_report.csv`
 - `/Users/abhishekkumar/Documents/Projects/etl-data-cleaning-pipeline/reports/automated_kpi_report_monthly.csv`
+
+## Portfolio Preview
+![ETL Pipeline Preview](assets/etl_pipeline_preview.png)
+
+## Recruiter Case Study
+- `/Users/abhishekkumar/Documents/Projects/etl-data-cleaning-pipeline/docs/CASE_STUDY.md`
